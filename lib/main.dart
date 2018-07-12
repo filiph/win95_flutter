@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Win95Button(text: "Increment", onTap: _incrementCounter),
-                Win95Button(text: "Substract", onTap: _decrementCounter),
+                Win95Button(text: "Decrement", onTap: _decrementCounter),
               ],
             ),
           ],
